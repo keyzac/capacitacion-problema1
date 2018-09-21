@@ -1,1 +1,5 @@
-# capacitacion-problema1
+# Ejercicio1
+Capacitación: Git, bash y docker
+Integrantes:
+- Kevin Yzacupe
+- Luis Tupa
