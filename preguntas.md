@@ -64,3 +64,32 @@ Integrantes:
 > git branch	: Te ofrece una lista de todas las ramas.
 
 > git push		: Sube tu cambios hacia la rama remota.
+
+
+# PREGUNTAS PARTE 4
+##1. ¿Qué importancia tiene los tags en un proyecto?
+> Permite realizar una version mas personalizada.
+
+##2. ¿Cuál es la diferencia entre un tag normal y un tag anotado en git?
+> El tag anotado en git permite asignar un mensaje.
+
+##3. ¿Cómo se sube todos los tags de git que hay en mi local?
+> git push --tag
+
+##4. ¿Es necesario loguearse cada vez que subo una imagen a dockerhub?
+> Si
+
+##5. ¿Qué es y para qué sirve docker?
+> Docker permite crear contenedores que almacenen especificamente proyectos de forma isolada lo que permite mayor portabilidad y compatibilidad.
+
+##6. ¿Cuál es la diferencia entre docker y VirtualBox (virtualización)?
+> Docker se comunica directamente con el kernel de linux a diferencia de la maquina virtual que utiliza un hypervisor para comunicarse con el hardware.
+
+##7. ¿Es necesario depender de una imagen de docker base al crear una imagen nueva?
+> Si
+
+##8. ¿Porqué debo anteponer el nombre de usuario en una imagen docker nueva?
+> Para identificar al usuario asociado a la imagen en dockerhub
+
+##9. ¿Que pasa si creo una imagen sin especificar una versión o tag, con qué versión se crea?
+> Si no se especifica el tag se crea con la version Latest
