@@ -21,3 +21,15 @@
 ```bash
 	docker push jjcb/orbis-training-docker:0.2.0
 ```
+
+## Expose port 
+
+```bash
+	docker run -d -p 1080:80 jjcb/orbis-training-docker:1.0.0
+```
+
+## Execute docker-compose 
+
+```bash
+	docker-compose up -d
+```

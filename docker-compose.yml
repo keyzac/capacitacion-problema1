@@ -1,0 +1,6 @@
+version: '2'
+services:
+  nginx:
+    image: jjcb/orbis-training-docker:1.0.0
+    ports:
+      - "1080:80"

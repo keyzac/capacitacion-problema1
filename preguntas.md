@@ -134,3 +134,17 @@ Integrantes:
 
 ## 8. ¿Cómo se comenta una linea de código en Dockerfile?
 > '#'
+
+
+# PREGUNTAS PARTE 6
+## 1. ¿Qué es NGINX?
+> Es un servidor web
+
+## 2. ¿Cómo expongo puertos en docker?
+> Con el flag -p <puerto_expuesto>:<puerto_imagen>
+
+## 3. ¿Cómo especifico los puertos al levantar un contenedor (docker run)?
+> docker run -p 1080:80 ...
+
+## 4. ¿Cómo hago 'forward' al levantar un contenedor (docker run)?
+> docker run -p 192.168.0.1:1080:80 ...
