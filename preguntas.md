@@ -110,3 +110,27 @@ Integrantes:
 ## 8.
 ### Comando para ejecutar el contenedor
 > docker run -it jjcb/orbis-training-docker:0.2.0 bash
+
+## 1. ¿Cuál es la diferencia entre una imagen y un contenedor?
+> El contenedor es una instancia de una imagen. La imagen es una serie capas designadas por el usuario.
+
+## 2. ¿Cómo listo las imágenes que hay en mi computadora?
+> docker images
+
+## 3. ¿Cómo salgo de un contenedor de docker?
+> exit
+
+## 4. ¿Se elimina el contenedor al salir de ella?
+> Depende si se ejecutar como un daemon o no.
+
+## 5. ¿Cómo elimino un contenedor?
+> docker rm
+
+## 6. ¿Para qué es necesario el flag `-i`, `-t`, `--rm`?
+> -i iniciar el modo interactivo, -t accede a la pseudo-terminal, --rm elimina el contenedor luego de haber terminado su ejecucion.
+
+## 7. ¿Cómo verifico que el archivo creado se encuentra en la imagen?
+> Entrando al contendor en modo interactivo y accediendo al bash
+
+## 8. ¿Cómo se comenta una linea de código en Dockerfile?
+> '#'
