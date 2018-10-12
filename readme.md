@@ -33,3 +33,9 @@
 ```bash
 	docker-compose up -d
 ```
+
+## Docker run execute npm install 
+
+```bash
+	docker run -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm install
+```

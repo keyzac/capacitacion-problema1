@@ -1,4 +1,1 @@
-FROM nginx:alpine
-RUN apk add bash
-COPY ./preguntas.md app/
-COPY ./intro.md app/
+FROM node:10.10.0-slim
