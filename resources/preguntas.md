@@ -4,7 +4,7 @@ Integrantes:
 - Kevin Yzacupe
 - Luis Tupa
 - Roy Salinas
-
+- Jhon Castro
 
 # PREGUNTAS 1
 ## 1. ¿Qué es y para qué sirve GIT?
