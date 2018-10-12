@@ -45,3 +45,21 @@
 ```bash
 	docker -it run -p 3030:3030 -p 35729:35729 -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm start
 ```
+
+## New port 
+
+```javascript
+	"scripts": {
+    	"start": "remarker serve --source resources/preguntas.md --port 1042"
+	}
+```
+
+```bash
+	docker -it run -p 1042:1042 -p 35729:35729 -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm start
+```
+
+## Npm run realase 
+
+```bash
+	docker run -it -p 1042:1042 -p 35729:35729 -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm run release
+```

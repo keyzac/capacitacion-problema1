@@ -1,4 +1,30 @@
-# Ejercicio1
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+    <style type="text/css">
+      body {
+  font-family: 'Avenir Next', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'メイリオ', sans-serif;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
+.remark-code,
+.remark-inline-code {
+  font-family: 'Menlo', 'Monaco', 'Courier new', monospace;
+}
+
+.remark-slide-content.inverse {
+  color: #f3f3f3;
+  background-color: #272822;
+}
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source"># Ejercicio1
 Capacitación: Git, bash y docker
 Integrantes:
 - Kevin Yzacupe
@@ -147,5 +173,18 @@ Integrantes:
 > docker run -p 1080:80 ...
 
 ## 4. ¿Cómo hago 'forward' al levantar un contenedor (docker run)?
-> docker run -p 192.168.0.1:1080:80 ...
-
+> docker run -p 192.168.0.1:1080:80 ...</textarea>
+    <script src="remark.js"></script>
+    
+    <script>
+      window.slideshow = remark.create({})
+    </script>
+    <script>
+      
+      ;window.LiveReloadOptions = {
+        host: 'localhost',
+        port: '35729'
+      };
+    </script>
+  </body>
+</html>
