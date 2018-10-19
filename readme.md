@@ -37,13 +37,13 @@
 ## Docker run execute npm install 
 
 ```bash
-	docker -it run -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm install
+	docker run -it -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm install
 ```
 
 ## Export ports execute npm start 
 
 ```bash
-	docker -it run -p 3030:3030 -p 35729:35729 -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm start
+	docker run -it -p 3030:3030 -p 35729:35729 -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm start
 ```
 
 ## New port 
@@ -55,7 +55,7 @@
 ```
 
 ```bash
-	docker -it run -p 1042:1042 -p 35729:35729 -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm start
+	docker run -it -p 1042:1042 -p 35729:35729 -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm start
 ```
 
 ## Npm run realase 
