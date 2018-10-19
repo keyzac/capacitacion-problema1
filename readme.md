@@ -63,3 +63,14 @@
 ```bash
 	docker run -it -p 1042:1042 -p 35729:35729 -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 npm run release
 ```
+
+## Execute bash container
+
+```bash 
+	docker run -v $PWD:/app -w /app jjcb/orbis-training-docker:2.0.0 bash example.sh
+```
+## Execute bash message "Ejecutando contenedor..."
+
+```bash 
+	docker run --entrypoint echo jjcb/orbis-training-docker:2.0.0 'Ejecutando contenedor...'
+```

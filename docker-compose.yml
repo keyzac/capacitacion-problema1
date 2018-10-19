@@ -9,3 +9,7 @@ services:
     volumes:
       - .:/app
     command: npm start
+
+  test:
+    image: node:10.10.0-slim
+    command: curl node:1042
